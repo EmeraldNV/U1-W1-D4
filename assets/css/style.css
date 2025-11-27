@@ -119,7 +119,12 @@ table tbody .grey{
 
 .validazione {
     padding-block: 3vh;
-    
+
+}
+
+iframe {
+    border-radius: 1.5rem;
+
 }
 
 /* FORM */
