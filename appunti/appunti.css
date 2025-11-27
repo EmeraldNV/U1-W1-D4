@@ -1,0 +1,28 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  
+}
+
+h1,h2,h3,h5,h6,p {
+    margin-top: 4p;
+}
+.box {
+  width: 50%;
+  height: 300px;
+  display: inline-block;
+  margin-right: -4px;
+  box-sizing: content-box;
+  margin;
+}
+
+.aqua {
+     background-color: aqua;
+
+}
+
+.coral {
+     background-color: coral;
+}
+

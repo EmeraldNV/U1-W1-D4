@@ -1,0 +1,129 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+  max-width: 97vw;
+  padding: 3vh;
+  background-image: url(../img/sfondo.png);
+  font-family: Poppins;
+ 
+}
+/* HEADER */
+header {
+  width: 100%;
+
+  background: #4db1db;
+  background: linear-gradient(
+    180deg,
+    rgba(77, 177, 219, 1) 0%,
+    rgba(29, 74, 130, 1) 100%,
+    rgba(13, 64, 37, 1) 9%,
+    rgba(56, 24, 13, 1) 100%
+  );
+  text-align: center;
+  box-shadow: grey 0 3px 7px;
+  line-height: 3vh;
+}
+
+#headerLogo img,
+#headerLogo nav,
+#headerLogo h3 {
+  padding: 1.4rem;
+  box-sizing: border-box;
+  font-family: ;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#headerLogo img {
+  width: 15rem;
+}
+
+/* MAIN */
+main {
+  margin-block: 1rem;
+  background-color: white;
+  box-shadow: grey 0 3px 7px;
+  line-height: 2.5vh;
+}
+
+main * {
+  box-sizing: border-box;
+  padding-inline: 0.5rem;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+article h1,h2,h3,h4,h5,p{
+    padding-block: 1vh;
+}
+article h1{
+    font-weight: 600;
+    font-size: 2em;
+    padding-block:1em ;
+    line-height: 5vh;
+}
+article h2{
+    color: grey;
+    padding-block-end: 1em;
+}
+article ul{
+    list-style-type: disc;
+    margin-inline-start: 7vw;
+}
+article ol{
+    list-style-type: decimal;
+    margin-inline-start: 7vw;
+}
+
+#remark {
+    font-style:bolder;
+    color: rgb(78, 45, 78);
+}
+
+ul h3 {
+    font-weight: bold;
+}
+
+/* TABELLE */
+
+table {
+    border-bottom: solid rgb(100, 146, 231);
+    border-width: 1px;
+ 
+}
+table thead{
+    background-color: rgb(100, 146, 231);
+    height: 8vh;
+    text-align: center;
+}
+
+table thead th {
+    padding: 2vh;
+    vertical-align: bottom;
+    color: white;
+}
+
+table tbody td{
+    text-align: center;
+    vertical-align: center;
+padding: 2vh;
+
+}
+
+table tbody .grey{
+    background-color: rgb(238, 236, 236);
+    border-block: solid rgb(219, 219, 219);
+    border-width: 0.1rem;
+    
+}
+
+.validazione {
+    padding-block: 3vh;
+    
+}
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
